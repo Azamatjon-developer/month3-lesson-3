@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+.wrapper-desc h1{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color:#363940;
+
+}
+
+.wrapper-desc p{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color:#95A1BB;
+
+}
+
+.wrapper-box{
+    width: 220px;
+    height: 347px;
+    background-color:rgb(183, 211, 211);
+    margin-top: 40px;
+}
+
+.all-box{
+    display: flex;
+    gap: 20px;
+
+}
+
+.wrapper-box h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color:#363940;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.wrapper-box h3{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color:#363940;
+    padding-top: 20px;
+}
+.wrapper-box h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color:#363940;
+    padding-top: 20px;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 8px 26px;
+    text-align: center;
+    border:2px solid blueviolet;
+    background-color: #fff;
+    color:#6E38F7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.btn-two{
+    background-color:#6E38F7;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 8px 26px;
+    border:2px solid blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color:#fff;
+
+
+}
+.wallet i{
+    color:#6E38F7;
+    
+}
